@@ -502,3 +502,14 @@ body {
     font-family: "montserrat", sans-serif;
 
 }
+@media (max-width: 768) {
+    .container {
+            grid-template-columns: 1fr;
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+    
+}
