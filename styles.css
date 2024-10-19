@@ -502,28 +502,3 @@ body {
     font-family: "montserrat", sans-serif;
 
 }
-@media (max-width: 768px) {
-    .container {
-        display: grid;
-        grid-template-columns: 80px 1fr;
-    }
-    .sidebar {
-        display: block;
-    }
-    .chat-list {
-        display: block;
-    }
-    .contacts {
-        display: flex;
-        justify-content: space-around;
-    }
-    .chat {
-        width: auto;
-    }
-    .chat-window {
-        display: none;
-    }
-    .profile-panel {
-        display: none;
-    }
-}
